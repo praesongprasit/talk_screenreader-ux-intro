@@ -1,7 +1,7 @@
-# Talk title
+# Let's Play with a Screen Reader!
 
-This [x]mins talk was prepared for:
-- [Event](https://) - 19th June 2019
+This 45mins talk was prepared for:
+- [Investment Friday by UX Auckland](https://www.meetup.com/User-Experience-Auckland/events/285144292/) - 22nd April 2022
 
 ## Viewing
 
