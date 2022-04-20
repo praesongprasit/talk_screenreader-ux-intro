@@ -1,0 +1,19 @@
+{
+  "short_name": "WebAccessClub",
+  "name": "Web Access Club",
+  "icons": [
+    {
+      "src": "/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icons/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#A2DDD9",
+  "background_color": "#fff",
+  "display": "standalone"
+}
