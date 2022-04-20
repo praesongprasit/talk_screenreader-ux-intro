@@ -1,9 +1,9 @@
 /**
  * Lack of Colours - Personal brand theme for reveal.js
  *
- * By Prae Songprasit, http://lackofcolours.com
+ * By Prae Songprasit, http://praesongprasit.com
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222;
 }
@@ -13,12 +13,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 :root {
   --r-background-color: #181E2B;
-  --r-main-font: Source Sans Pro, Helvetica, sans-serif;
+  --r-main-font: Asap, -apple-system, BlinkMacSystemFont, sans-serif;
   --r-main-font-size: 42px;
   --r-main-color: #fff;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Source Sans Pro, Helvetica, sans-serif;
+  --r-heading-font: Merriweather, -apple-system, BlinkMacSystemFont, serif;
   --r-heading-color: #fff;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;

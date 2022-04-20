@@ -1,7 +1,7 @@
 /**
  * Lack of Colours - Personal brand theme for reveal.js
  *
- * By Prae Songprasit, http://lackofcolours.com
+ * By Prae Songprasit, http://praesongprasit.com
  */
 
 
@@ -12,7 +12,7 @@
 
 
 // Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -22,8 +22,8 @@ $mainColor: #fff;
 $headingColor: #fff;
 
 $mainFontSize: 42px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: 'Asap', -apple-system, BlinkMacSystemFont, sans-serif;
+$headingFont: 'Merriweather', -apple-system, BlinkMacSystemFont, serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
