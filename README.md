@@ -1,4 +1,4 @@
-# Let's Play with a Screen Reader!
+# Let's play with a screen reader!
 
 This 45mins talk was prepared for:
 - [Investment Friday by UX Auckland](https://www.meetup.com/User-Experience-Auckland/events/285144292/) - 22nd April 2022
