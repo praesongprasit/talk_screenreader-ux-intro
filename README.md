@@ -14,7 +14,7 @@ Let's run OSX VoiceOver over a site or an app to find out!
 ## Viewing
 
 The slides can be viewed on:
-
+https://praesongprasit.github.io/talk_screenreader-ux-intro/
 
 To view slide notes, open the slide and press the `s` key.
 
