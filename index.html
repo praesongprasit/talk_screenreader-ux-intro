@@ -77,9 +77,10 @@
 
 						<ol>
 							<li>Why I'm here</li>
-							<li>What's a screen reader</li>
+							<li>What is a screen reader</li>
 							<li>Who uses it</li>
 							<li>How to use OSX VoiceOver</li>
+							<li>Takeaways</li>
 						</ol>
 					</div>
 				</section>
@@ -113,37 +114,53 @@
 				</section>
 
 				<section aria-labelledby="slide4">
-					<h2 id="slide4">Why I'm here?</h2>
-
-					<p>
-						<span class="fragment" data-fragment-index="1">Create <bold>empathy</bold></span>
-						<span class="fragment" data-fragment-index="2">and add <bold>context</bold></span>
-					</p>
+					<h2 id="slide4">Why am I here?</h2>
+					<p class="fragment">to learn, share, and recruit more a11y friends❣️</p>
 
 					<aside class="notes">
-						<p>This year, I'm studying to become an internationally certified accessibility practitioner.</p>
-						<p>What all that means, is that I'm no master at accessibility. Like all things UX, it's a continuous learning journey and craft.</p>
+						<p>This year, I'm studying to become an internationally certified accessibility practitioner. The CAAP certification, by IAAP (International Association of Accessibility Practitioners).</p>
+
+						<p>What all that means, is that right now, I'm no master at accessibility. There's so much I don't know, but I've committed in learning the craft.</p>
+
+						<p>As we all know, the best way solidify your learning, is to share it.</p>
+
+						<p><span aria-hidden="true">[Next]</span>Who's better than my UX friends! Afterall, you're front-end developers' partner-in-crime.</p>
+						
+						<p>For engineers to create the most accessible product possible, all of us need to be able to understand different users' access needs.</p>
+
+						<p>As we progress with this talk, it will become increasingly clear that a lot of the critical accessibility issues can be resolved early at the UX design phase, then driven home via proper front-end implementation.</p>
+
+						<p>It's going to be a fun! <span aria-hidden="true">[Next]</span></p>
+					</aside>
+				</section>
+
+				<section aria-labelledby="slide5">
+					<h2 id="slide5">What's a screen reader?</h2>
+					<p class="fragment">Assistive software that<br />reads digital content and interfaces</p>
+
+					<aside class="notes">
+						<p>So first up, what on earth is a screen reader??</p>
+
+						<p>True to its name, it's an assistive technology, like my glasses.</p>
+						
+						<p><span aria-hidden="true">[Next]</span> It's a software that reads digital content and interfaces. It helps users who cannot look at the interface, for whatever reason, access other software and its content.</p>
+
+						<p>I'm emphasising on <em>'software that lets you access other software'</em> here.</p>
+
+						<p>As web creators, it's often easy to forget that assistive technologies aren't solely made for accessing the web.</p>
+
+						<p>It's made so that users can access anything on their device. Installed apps and etc. Your web product just happen to be run on an app called a browser, something that assistive tool like screen reader could be used on.</p>
+
+						<p>This is one of the reasons why there's currently no way to track who uses assistive technoliges on your website. Browsers don't collect information on whther another software is interacting with it, or is also installed on the same device.</p>
+						
+						<p>Chrome isn't always aware that you're cheating on it with Firefox and Safari installed, and how you're using those other browsers? And why should it?! That would be even creepier than the status quo!</p>
+
+						<p>If the lack of user data makes you worried, don't be. If we follow universal and inclusive design principles, screen readers is just another access need we consider as a part of our process. We shouldn't explicitly need stats for how many of these users access our products to design something.</p>
 					</aside>
 				</section>
 
 				<section>
-					<h2>When?</h2>
-					
-					<img class="stretch"
-							src="img/ux-ui-flow.png"
-							alt="UX-UI flow by Fen https://medium.com/nyc-design/ux-ui-design-process-for-beginner-753952bb2241">
-
-					<aside class="notes">
-						<p>How early should devs be involved? Depends</p>
-						<p>What kind of project? Is it a technical solution? Or is it a brochureware site?</p>
-						<p>Problem statements can be shared early</p>
-						<p>User research sessions can have devs join in</p>
-						<p>Data intensive projects can benefit from Dev wireframing. Yes UXers can do it with Axure, but devs don't have time to think about data models</p>
-					</aside>
-				</section>
-
-				<section>
-					<h2>How?</h2>
+					<h2>Who uses screen readers?</h2>
 
 					<ul>
 						<li class="fragment" data-fragment-index="1">Ask</li>
@@ -154,11 +171,8 @@
 					</ul>
 
 					<aside class="notes">
-						<p>A lot of what I taked about means double budget (dev + design) early, which pays off</p>
-						<p>Some devs, especially BEDs, see no point in this. FEDs are often on board</p>
-						<p>When companies first try, they make devs sit in every testing session, both user and usability test. Pointless, deminishing return</p>
-						<p>Data heavy prototype, get devs to sit in first session, fix, and followup</p>
-						<p>Final synthesised findings give devs idea of how decisions are reached, important to them and not</p>
+						<p>When I first learnt about screen readers, I thought only those who are completely blind uses it.</p>
+						<p>Oh... how wrong I was.</p>
 					</aside>
 				</section>
 
@@ -184,7 +198,7 @@
 				</section>
 
 				<section>
-					<h2>What next?</h2>
+					<h2>Takeaways</h2>
 					<p class="fragment" data-fragment-index="1">
 						UXer, go talk to your devs <br>
 						Devs, ask to be involved
@@ -214,6 +228,7 @@
 			Reveal.initialize({
 				hash: true,
 				transition: 'none',
+				slideNumber: 'c/t',
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
