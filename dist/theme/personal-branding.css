@@ -19,7 +19,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Merriweather, -apple-system, BlinkMacSystemFont, serif;
-  --r-heading-color: #29595B;
+  --r-heading-color: #0D1D1D;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: uppercase;
@@ -355,13 +355,48 @@ section.has-light-background, section.has-light-background h1, section.has-light
     background-color: var(--r-background-color);
   }
 }
-.reveal h1, .reveal h2, .reveal h3 {
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
   text-transform: none;
 }
 .reveal h1 {
-  color: #29595B;
+  color: #0D1D1D;
 }
-.reveal bold {
+.reveal bold,
+.reveal strong {
   font-weight: 600;
-  color: #29595B;
+}
+.reveal .stretch img {
+  max-height: 80%;
+}
+.reveal .img-mask--round {
+  display: block;
+  border: 6px solid #fff;
+  width: 50%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.reveal .img-mask--round img {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.reveal .nested-list {
+  list-style: inside;
+  margin-top: 0.5em;
+  font-size: 0.85em;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }

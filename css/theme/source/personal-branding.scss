@@ -19,7 +19,7 @@
 $backgroundColor: #A2DDD9;
 
 $mainColor: #29595B;
-$headingColor: #29595B;
+$headingColor: #0D1D1D;
 
 $mainFontSize: 42px;
 $mainFont: 'Asap', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -49,16 +49,61 @@ section.has-light-background {
 // ---------------------------------------------
 
 .reveal {
-	h1, h2, h3 {
+	h1, h2, h3, h4 {
 		text-transform: none;
 	}
 
 	h1 {
 		color: $headingColor;
 	}
+	
+	// em,
+	// bold,
+	// strong {
+	// 	color: $headingColor;
+	// }
 
-	bold {
+	bold,
+	strong {
 		font-weight: 600;
-		color: $headingColor;
 	}
+
+	.stretch img {
+		max-height: 80%;
+	}
+
+	.img-mask--round {
+		display: block;
+		border: 6px solid #fff;
+		width: 50%;
+		max-width: 300px;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+		border-radius: 50%;
+
+		img {
+			padding: 0;
+			margin: 0;
+			display: block;
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+
+	.nested-list {
+		list-style: inside;
+		margin-top: .5em;
+		font-size: .85em;
+	}
+}
+
+.visually-hidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
 }
