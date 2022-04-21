@@ -46,9 +46,12 @@
 	<body>
 		<div class="reveal">
 			<main class="slides">
-				<section>
-					<h1>Screen reader</h1>
-					<p>Lets get to know and play with one!</p>
+				<section aria-labelledby="slide1">
+					<div id="slide1">
+						<h1>Screen reader</h1>
+						<p>Lets get to know and play with one!</p>
+					</div>
+
 					<p>
 						<small>
 							<a href="https://twitter.com/praesongprasit" alt="Link to Prae Songprasit's twitter">@PraeSongprasit</a>
@@ -56,16 +59,61 @@
 					</p>
 
 					<aside class="notes">
-						<p>Prae, UI Front End Developer for 7 years.</p>
-						<p>Specialise in scalable CSS &amp; Semantic HTML for large scale sites.</p>
-						<p>Like Tourism New Zealand, and Xero's customer help portal.</p>
-						<p>To keep things concise, I'm going to refer to Developers 'Dev'.</p>
-						<p>UX researcher? Designer? Devs in the room?</p>
+						<p>Kia Ora, Sawasdee-ka, and hello.</p>
+						<p>I'm so happy that you've joined us, to learn a little about screen readers with me today.</p>
+						<p>I hope that by the end of this 40-45mins talk, you will have a better idea of how screen readers work.</p>
+						<p>Hopefully, it'll also inspire you to start thinking about ways to ensure your designs cater for the <em>diverse</em> group of users who uses it.</p>
 					</aside>
 				</section>
 
-				<section>
-					<h2>Why?</h2>
+				<section aria-labelledby="slide2">
+					<aside class="notes">
+						<p>I'm trying to make my talks ever more accessible, and one of the recommendations was to verbally sign post through out the talk.</p>
+						<p>So here's what happening today</p>
+					</aside>
+
+					<div id="slide2">
+						<h2><span aria-hidden="true">🏄🏻 </span>Today's flow</h2>
+
+						<ol>
+							<li>Why I'm here</li>
+							<li>What's a screen reader</li>
+							<li>Who uses it</li>
+							<li>How to use OSX VoiceOver</li>
+						</ol>
+					</div>
+				</section>
+
+				<section aria-labelledby="slide3">
+					<h2 id="slide3">About me</h2>
+
+					<picture class="img-mask--round">
+						<img src="img/takenbykasia_DSC_3771_cropped.jpg" alt="Headshot of Prae smiling widely at the camera. She's wearing a big pair of glasses and a mint green shirt. Her short black hair is fluttering in the wind, and there's a golden plain behind her" />
+					</picture>
+
+					<aside class="notes">
+						<p>First, a little bit about me</p>
+
+						<p>I'm a UX engineer, who loves helping people create accessible web products.</p>
+
+						<p>And a host of Web Access Club, an accessibility podcast for web creators. Launching later this year.</p>
+
+						<p>I've been in the NZ tech industry for about 8 years now, specialising in UI front-end work.</p>
+
+						<p>I worked on large scale responsive sites like newzealand.com, and Xero Central - a customer help portal.</p>
+
+						<p>These projects have given me a lot of experience working with UX practitioners. So I have a deep appreciation for this craft. I do owe a significant part of my career to designers I've worked with to solve all sorts of usabilty issues.</p>
+
+						<p>In my free time, I practice Japanese archery, and eat around town. I am a little bit of a foodie.</p>
+
+						<p>In the last couple of years, I've started to dive into wonderful world of web accessibility. Afterall, UI front-end's bread and butter, HTML, plays a crucial role.</p>
+
+						<p><span aria-hidden="true">[Next]</span> That is why I'm here</p>
+					</aside>
+				</section>
+
+				<section aria-labelledby="slide4">
+					<h2 id="slide4">Why I'm here?</h2>
 
 					<p>
 						<span class="fragment" data-fragment-index="1">Create <bold>empathy</bold></span>
@@ -73,11 +121,8 @@
 					</p>
 
 					<aside class="notes">
-						<p>UX spend all the time empathising with customers, yet not to their own devs</p>
-						<p>Last job, I worked in a service design agency. Seen difference when devs were and were not involved early</p>
-						<p>As a dev, I've grown. Changed the way I approach a problem</p>
-						<p>Once we've experienced this, if done right, the benefit is undeniable</p>
-						<p>Lately feels far away from my users. Given task, and no real user context</p>
+						<p>This year, I'm studying to become an internationally certified accessibility practitioner.</p>
+						<p>What all that means, is that I'm no master at accessibility. Like all things UX, it's a continuous learning journey and craft.</p>
 					</aside>
 				</section>
 
