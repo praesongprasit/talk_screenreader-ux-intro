@@ -13,6 +13,8 @@ Let's run OSX VoiceOver over a site or an app to find out!
 
 ## Viewing
 
+[Recording of Youtube livestream session](https://www.youtube.com/watch?v=eOPlrIOOos4)
+
 The slides can be viewed on:
 https://praesongprasit.github.io/talk_screenreader-ux-intro/
 
